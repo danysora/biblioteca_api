@@ -127,7 +127,7 @@ def consultar_libros():
 def consultar_libro(id):
     with connection.cursor() as cursor:
         cursor.execute(LIBRO_CONSULTA, (id,))
-        libro = cursor.fetchone()
+        libro = cursor.fetchall()
 
         if libro is None:
             return {"error": "Libro no encontrado"}, 404
