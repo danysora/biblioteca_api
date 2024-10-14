@@ -2,9 +2,18 @@
 
 **Para empezar**.
 
+Para clonar el repositorio, basta con elegir la opción "Fork" arriba a la derecha.
+Si no desea hacerlo así, puede 	dar click en el botón verde que dice "Code". Ahí le desplegará varias opciones:
+*Copiar el url del repositorio para usarlo en un cliente, como github desktop.
+*Abrir directamente github desktop para clonarlo.
+*Descargar el código fuente en forma de archivo comprimido.
+*Copiar un comando para clonarlo en un cli de consola.
+
+Por el momento, SSH no se recomienda debido a requerimientos extras que esto puede tener.
+
 Se recomienda el uso de un entorno virtual para que no haya conflicto con versiones de librerias locales.
 Para ello, es recomendable instalar virtualenv.
-En la consola, escribir: pip install 'virtualenv'
+En la consola, una vez teniendo abierta la carpeta del proyecto, escribir: pip install 'virtualenv'
 Despues, para crear un entorno virtual, escribir virtualenv + el nombre que se desee para el entorno.
 Ejemplo: virtualenv biblioteca_env
 Una vez terminado, hay que acceder al entorno virtual, para ello se usa este comando:
